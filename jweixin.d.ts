@@ -29,7 +29,10 @@ declare namespace Wechat {
 
         /**获取"分享到朋友圈"按钮点击状态及自定义分享内容 */
         updateTimelineShareData(param: ShareData): void;
-        /**获取"分享给朋友"按钮点击状态及自定义分享内容 */
+        /**获取"分享到朋友圈"按钮点击状态及自定义分享内容（即将废弃）*/
+        onMenuShareTimeline(param: ShareData): void;
+        updateAppMessageShareData(param: MessageShareData): void;
+        /**获取"分享给朋友"按钮点击状态及自定义分享内容（即将废弃） */
         onMenuShareAppMessage(param: MessageShareData): void;
         /**获取"分享到QQ"按钮点击状态及自定义分享内容 */
         onMenuShareQQ(param: QQShareData): void;

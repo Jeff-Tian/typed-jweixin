@@ -36,7 +36,7 @@ document.onload = () => {
         console.log('cancelled');
     };
 
-    wx.onMenuShareTimeline(shareData);
+    wx.updateTimelineShareData(shareData);
 
     let type: Wechat.NetworkResource = {};
 
