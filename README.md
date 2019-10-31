@@ -14,7 +14,7 @@
 ## Install
 * With [`npm`](https://www.npmjs.com/) installed  
     ```sh
-    $ npm install typed-jweixin --save-dev
+    $ npm install @jeff-tian/typed-jweixin --save-dev
     ```
 * With [`typings`](https://github.com/typings/typings) installed  
     ```sh
