@@ -2,9 +2,9 @@ const fs = require('fs');
 
 let baseDir = process.cwd();
 
-let typesFolder = `${baseDir}/../@types`;
+let typesFolder = `${baseDir}/../../@types`;
 
-let targetPath = `${baseDir}/../@types/jweixin`;
+let targetPath = `${baseDir}/../../@types/jweixin`;
 
 if (!fs.existsSync(typesFolder)) {
     fs.mkdirSync(typesFolder);
