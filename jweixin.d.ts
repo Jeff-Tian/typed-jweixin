@@ -28,7 +28,7 @@ declare namespace Wechat {
         checkJsApi(param: CheckJsApiData): void;
 
         /**获取"分享到朋友圈"按钮点击状态及自定义分享内容 */
-        onMenuShareTimeline(param: ShareData): void;
+        updateTimelineShareData(param: ShareData): void;
         /**获取"分享给朋友"按钮点击状态及自定义分享内容 */
         onMenuShareAppMessage(param: MessageShareData): void;
         /**获取"分享到QQ"按钮点击状态及自定义分享内容 */
