@@ -1,7 +1,7 @@
 {
-  "author": "Emeryao",
+  "author": "Jeff Tian <jeff.tian@outlook.com>",
   "bugs": {
-    "url": "https://github.com/Emeryao/typed-jweixin/issues"
+    "url": "https://github.com/jeff-tian/typed-jweixin/issues"
   },
   "description": "TypeScript declaration for Weixin JSSDK(jweixin)",
   "directories": {
@@ -22,10 +22,17 @@
   "name": "@jeff-tian/typed-jweixin",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Emeryao/typed-jweixin.git"
+    "url": "https://github.com/jeff-tian/typed-jweixin.git"
   },
   "scripts": {
-    "postinstall": "node scripts/postinstall.js"
+    "postinstall": "node scripts/postinstall.js",
+    "semantic-release": "semantic-release"
   },
-  "version": "1.4.1"
+  "version": "0.0.0-development",
+  "devDependencies": {
+    "semantic-release": "^15.13.28"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
